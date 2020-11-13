@@ -1,0 +1,13 @@
+form {
+    font-family: futura;
+}
+
+:required {
+    border: 1px dashed red;
+    background-color:hotpink;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}

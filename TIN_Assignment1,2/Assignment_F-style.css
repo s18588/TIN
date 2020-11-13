@@ -1,0 +1,47 @@
+* {
+    background-color: black;
+}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+h1 {
+    margin-left: 5%;
+    background: none;
+    text-decoration: underline;
+}
+
+a {
+    background: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+p {
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+    text-align: justify;
+    background: none;
+    margin-left:15%;
+    margin-right:15%
+}
+
+
+div {
+    background: none;
+    margin-left: 5%;
+}
+
+body > img {
+    box-sizing: border-box;
+    width:100%;
+
+    border-color: white;
+    border-style: solid;
+    border-width: 50px;
+}
