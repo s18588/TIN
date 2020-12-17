@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+
+    function convertToCelsius(){
+        var fahrenheit = document.getElementById('inputFahrenheit').value;
+        var celsius = (fahrenheit - 32) * 5 / 9;
+        document.getElementById('outputCelsius').value = celsius;
+    }
+
+    function convertToFahrenheit(){
+        var celsius = document.getElementById('inputCelsius').value;
+        var fahrenheit = celsius * 9/5 + 32;
+        document.getElementById('outputFahrenheit').value = fahrenheit;
+    }
+
+</script>
+<p>Enter temperature in Fahrenheit</p>
+<input type = "number" id = "inputFahrenheit">
+<input type = "button" onclick = "convertToCelsius()" value = "Convert"><br>
+<p>Convert to Celsius</p>
+<input type = "number" id = "outputCelsius" readonly><br>
+
+<p>Enter temperature in Celsius</p>
+<input type = "number" id = "inputCelsius">
+<input type = "button" onclick = "convertToFahrenheit()" value = "Convert"><br>
+<p>Convert to Fahrenheit</p>
+<input type = "number" id = "outputFahrenheit" readonly><br>
+
+</body>
+</html>
